@@ -38,7 +38,7 @@ export const Wrap = styled.div`
 
 export const Dropdown = styled.div`
   background: #1c1c1c;
-  color: red;
+  color: white;
   max-width: 100%;
   height: 75px;
   display: flex;
