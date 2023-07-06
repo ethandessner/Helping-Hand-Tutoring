@@ -4,7 +4,7 @@ export const AccordionSection = styled.div`
   display: flex;
   flex-direction: column;
   background: #f9f9f9;
-  max-width: 1000px;
+  max-width: 850px;
   margin: 30px auto 20px;
   align-items: center;
   justify-content: absolute;
@@ -13,13 +13,14 @@ export const AccordionSection = styled.div`
 export const Container = styled.div`
   position: flex;
   top: 30%;
-  box-shadow: 2px 10px 35px 1px rgba(153, 153, 153, 0.3);
+  width: 100%;
+  ${"" /* box-shadow: 2px 10px 35px 1px rgba(153, 153, 153, 0.3); */}
 `;
 export const Wrap = styled.div`
   background: #272727;
   color: white;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   max-width: 100%;
   text-align: center;
@@ -37,13 +38,14 @@ export const Wrap = styled.div`
 
 export const Dropdown = styled.div`
   background: #1c1c1c;
-  color: white;
+  color: red;
   max-width: 100%;
-  height: 50px;
+  height: 75px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 
   p {
     font-size: 1rem;

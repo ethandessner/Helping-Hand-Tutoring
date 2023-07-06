@@ -24,7 +24,7 @@ export const CloseIcon = styled(FaTimes)`
 `;
 
 export const Icon = styled.div`
-  position: absolte;
+  position: absolute;
   top: 1.2rem;
   right: 1.5rem;
   background: transparent;
@@ -59,11 +59,10 @@ export const SidebarLink = styled(LinkS)`
   color: #fff;
   cursor: pointer:
 
-  &:hover{
+  &:hover {
     color: #01bf71;
     transition: 0.2s ease-in-out;
   }
-
 `;
 
 export const SideBtnWrap = styled.div`
